@@ -1,0 +1,15 @@
+sname=input("ENTER A STUDENT NAME: ")
+susn=input("ENTER A STUDENT USN: ")
+sm1=int(input("ENTER MARKS IN SUBJECT 1: "))
+sm2=int(input("ENTER MARKS IN SUBJECT 2: "))
+sm3=int(input("ENTER MARKS IN SUBJECT 3: "))
+Total=sm1+sm2+sm3
+Percentage=(Total/300)*100
+print("Student Details")
+print("Name: ",sname)
+print("USN: ",susn)
+print("Marks in Subject 1: ",sm1)
+print("Marks in Subject 2: ",sm2)
+print("Marks in Subject 3: ",sm3)
+print("Total Marks: ",Total)
+print("Percentage: ",Percentage)
